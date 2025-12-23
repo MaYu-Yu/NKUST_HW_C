@@ -10,9 +10,9 @@ int main()
 	int new_password[50];
 	int letter=0;
 	
-	while(letter==0) //§PÂ_¬O§_¬°¦r¥À¡A¦pªG³£¬O¦r¥À¦^¶Ç1 
+	while(letter==0) //åˆ¤æ–·æ˜¯å¦ç‚ºå­—æ¯ï¼Œå¦‚æœéƒ½æ˜¯å­—æ¯å›å‚³1 
 	{
-		printf("½Ğ¿é¤J§Aªº±b¸¹¡G"); 
+		printf("è«‹è¼¸å…¥ä½ çš„å¸³è™Ÿï¼š"); 
 		scanf("%s",password);	
 		letter=1;	
 		for(int i=0;i<strlen(password)-1;++i)
@@ -21,22 +21,22 @@ int main()
 		}
 		if(letter==0)
 		{
-			printf("¿é¤J¿ù»~¡A½Ğ¦A¿é¤J¤@¦¸\n");
+			printf("è¼¸å…¥éŒ¯èª¤ï¼Œè«‹å†è¼¸å…¥ä¸€æ¬¡\n");
 		}
 		if(strlen(password)<=1)
 		{
 			letter=0;
-			printf("¿é¤J¿ù»~¡A½Ğ¦A¿é¤J¤@¦¸\n");
+			printf("è¼¸å…¥éŒ¯èª¤ï¼Œè«‹å†è¼¸å…¥ä¸€æ¬¡\n");
 		}
 	}
 		
-	for(int i=0;i<strlen(password)-1;++i) //§âCHARÂà¦¨INT 
+	for(int i=0;i<strlen(password)-1;++i) //æŠŠCHARè½‰æˆINT 
 	{
 		password[i]=tolower(password[i]);
 		password[i]=(int)password[i];	
 	}
 	
-	printf("±zªº±K½X¬O¡G");
+	printf("æ‚¨çš„å¯†ç¢¼æ˜¯ï¼š");
 	
 	for(int i=0;i<strlen(password)-1;++i)
 	{
