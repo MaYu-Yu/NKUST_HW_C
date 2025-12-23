@@ -9,7 +9,7 @@ void OverWeight(float i,float j);
 int main() 
 {
 	float i,j; 
-	printf("½Ğ¿é¤J¨­°ªÅé­«(m,kg)");
+	printf("è«‹è¼¸å…¥èº«é«˜é«”é‡(m,kg)");
 	scanf("%f,%f",&i,&j);
 	bmi(i,j);
 	OverWeight(i,j);	
@@ -22,7 +22,7 @@ void standard(float i,float j)
 {
 	float Standard;
 	Standard=(i*100-80)*0.7;
-	printf("¼Ğ·ÇÅé­«: %0.3f \n",Standard);		
+	printf("æ¨™æº–é«”é‡: %0.3f \n",Standard);		
 }
 
 void bmi(float i,float j)
@@ -37,7 +37,7 @@ void OverWeight(float i,float j)
 	float Overweight,Standard;
 	Standard=(i*100-80)*0.7;
 	Overweight=((j-Standard)/Standard) *1 ;
-	printf("¶W­«Åé­«: %0.3f \n",Overweight);	
+	printf("è¶…é‡é«”é‡: %0.3f \n",Overweight);	
 }
 
 
