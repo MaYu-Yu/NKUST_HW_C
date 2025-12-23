@@ -4,10 +4,10 @@
 int main()
 {
 	int money,total,eat_o=0,eat_b=0;
-	printf("╫п©И╓J╓p╙А╔i╗о╔н╙╨╙ВцB║G");
+	printf("Х╚▀Х╪╦Е┘╔Е╟▐Х┼╠Е▐╞Д╫©Г■╗Г └И┤▒И║█О╪ ");
 	scanf("%d",&money);
 	
-	while(money>=30)//╕Y╬О╫L║B╬О╫L║B╤б╫L╙╨╟j╟И 
+	while(money>=30)//Е░┐Ф╘≤Г⌡╓Ц─│Ф╘≤Г⌡╓Ц─│И╩▒Г⌡╓Г └Х©╢Е°┬ 
 {
 	for(int i=1;i<=3;i++)
 	{
@@ -29,17 +29,17 @@ int main()
 		}		
 	}
 }
-	total=eat_o+eat_b;//╕@╕Y╢X╫L 
-	for(int min=0;min<=total-1;min++)//╝и╤║╟j╟И 
+	total=eat_o+eat_b;//Е┘╠Е░┐Е╧╬Г⌡╓ 
+	for(int min=0;min<=total-1;min++)//Ф≥┌И√⌠Х©╢Е°┬ 
 	{
 			if(min%3!=2)
 			{
-			printf("╡д%d╓юда ╬О╫L\n",min*5);		
+			printf("Г╛╛%dЕ┬├И░≤ Ф╘≤Г⌡╓\n",min*5);		
 			}
 			else
 			{ 
-			printf("╡д%d╓юда ╤б╫L\n",min*5);	
+			printf("Г╛╛%dЕ┬├И░≤ И╩▒Г⌡╓\n",min*5);	
 			} 
 	}
-	printf("╕@╕Y╓F║G╬О╫L%d╜с ╤б╫L║G%d╜с ╕X╜p║G%d╫L Ёя╬l╙ВцB║G%d\n", eat_o, eat_b, total, money);
+	printf("Е┘╠Е░┐Д╨├О╪ Ф╘≤Г⌡╓%dЕ─▀ И╩▒Г⌡╓О╪ %dЕ─▀ Е░┬Х╗┬О╪ %dГ⌡╓ Е┴╘И╓≤И┤▒И║█О╪ %d\n", eat_o, eat_b, total, money);
 }
